@@ -5,6 +5,21 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+// entity: create table in db using name table
+// table: give your own name to table created
+// Id: primary key
+// column: give your own column name
+// generatedValue: auto increment values
+// transient: object not accociated with hibernate will not be added to db
+// temporal: handle time related data like timestamps
+// Lob: to store file images videos Large Objects
+// OneToOne:
+// OneToMany:
+// ManyToOne:
+// ManyToMany:
+// JoinColumn:
+
+
 @Entity
 @Table(name = "student_details")
 public class Student {
